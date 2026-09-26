@@ -1,0 +1,31 @@
+{
+  "name": "glasio-ui",
+  "version": "1.0.1",
+  "description": "Modern Glassmorphism UI Components for React & Tailwind CSS",
+  "main": "index.js",
+  "bin": {
+    "glasio-ui": "bin/cli.js"
+  },
+  "scripts": {
+    "prepack": "node scripts/prepack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhushangSingh/Glasio-UI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KhushangSingh/Glasio-UI/issues"
+  },
+  "homepage": "https://github.com/KhushangSingh/Glasio-UI#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^15.0.0",
+    "fs-extra": "^11.4.1",
+    "node-fetch": "^2.7.0"
+  }
+}
