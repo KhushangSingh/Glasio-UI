@@ -39,13 +39,18 @@ components/
 
 ## ✨ Quick Start
 
-1. **Install Tailwind CSS**: Ensure your project is set up with React and Tailwind CSS.
-2. **Browse Components**: Go to our [Component Registry](https://glasio-ui.vercel.app/) to preview the components.
-3. **Copy & Paste**: Find the component you want in the `components/` folder above, copy the `.jsx` file, and paste it right into your project.
+1. **Install Tailwind CSS**: Ensure your own project is set up with React and Tailwind CSS.
+2. **Find a Component**: Browse the `components/` folder in this repository or go to our [Component Registry](https://glasio-ui.vercel.app/) to find what you need.
+3. **Copy the Code**: Open the specific `.jsx` file (e.g., `GlassCard.jsx`) and copy the raw code.
+4. **Paste into Your Project**: Create a new file in your own project (e.g., `src/components/GlassCard.jsx`) and paste the code inside.
+5. **Import and Use**: You can now import the component locally into your app just like any other file!
 
 ### Example Usage:
 
+If you copied `GlassCard.jsx` into your project's `components` folder, you would use it like this:
+
 ```jsx
+// This imports the local file you just created!
 import { GlassCard } from "./components/GlassCard";
 
 export default function App() {
