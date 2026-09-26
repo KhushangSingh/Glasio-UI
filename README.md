@@ -23,6 +23,8 @@ Instead of dealing with massive npm packages and rigid APIs, Glasio UI gives you
 
 Unlike traditional UI libraries, this repository contains *only* the raw, copy-pasteable components so you can easily browse the source code.
 
+👉 **[View the full A-Z Component Index here (COMPONENTS.md)](COMPONENTS.md)**
+
 ```text
 components/
 ├── authentication/   # Login, Register, and SSO blocks
