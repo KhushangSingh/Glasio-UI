@@ -1,0 +1,29 @@
+{
+  "name": "glasio-ui-snippets",
+  "displayName": "Glasio UI Snippets",
+  "description": "Official snippets for Glasio UI React components.",
+  "version": "1.0.0",
+  "publisher": "GlasioUI",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KhushangSingh/Glasio-UI"
+  }
+}
