@@ -4,9 +4,17 @@
   "description": "Official snippets for Glasio UI React components.",
   "version": "1.0.0",
   "publisher": "KhushangSingh",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
+  "keywords": [
+    "react",
+    "tailwind",
+    "glassmorphism",
+    "ui",
+    "components"
+  ],
   "categories": [
     "Snippets"
   ],

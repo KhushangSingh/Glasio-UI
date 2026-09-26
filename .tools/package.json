@@ -1,6 +1,6 @@
 {
   "name": "glasio-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Modern Glassmorphism UI Components for React & Tailwind CSS",
   "main": "index.js",
   "bin": {
