@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const srcComponents = path.join(__dirname, '..', '..', 'components');
+const srcComponents = path.join(__dirname, '..', '..', '..', 'components');
 const destComponents = path.join(__dirname, '..', 'components');
 
-const srcCursors = path.join(__dirname, '..', '..', 'cursors.js');
+const srcCursors = path.join(__dirname, '..', '..', '..', 'cursors.js');
 const destCursors = path.join(__dirname, '..', 'cursors.js');
 
 try {
