@@ -43,7 +43,7 @@ export default function GlassDownloadPopup({ className = "" }) {
       </button>
 
       <div className="flex items-center gap-4 mb-4">
-        <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-colors duration-500 ${isComplete ? 'bg-green-500/20 text-green-400' : 'bg-blue-500/20 text-blue-400'}`}>
+        <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-colors duration-500 ${isComplete ? 'bg-green-500 text-white shadow-[0_0_15px_rgba(34,197,94,0.5)]' : 'bg-white text-black'}`}>
           {isComplete ? <CheckCircle2 size={20} /> : <Download size={20} className="animate-bounce" />}
         </div>
         <div className="flex-1 overflow-hidden">
@@ -58,7 +58,7 @@ export default function GlassDownloadPopup({ className = "" }) {
 
       <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-white/10">
         <div
-          className={`absolute left-0 top-0 h-full transition-all duration-500 ease-out ${isComplete ? 'bg-green-400' : 'bg-blue-400'}`}
+          className={`absolute left-0 top-0 h-full transition-all duration-500 ease-out ${isComplete ? 'bg-green-500' : 'bg-white'}`}
           style={{ width: `${progress}%` }}
         />
       </div>
