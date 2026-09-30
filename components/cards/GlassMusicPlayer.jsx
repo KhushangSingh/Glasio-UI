@@ -39,8 +39,8 @@ export default function GlassMusicPlayer({
             {artist}
           </p>
         </div>
-        <button className="shrink-0 text-[#39FF14] transition-transform hover:scale-110">
-          <CheckCircle2 size={24} className="fill-[#39FF14] text-black/50" />
+        <button className="shrink-0 text-blue-400 transition-transform hover:scale-110">
+          <CheckCircle2 size={24} className="fill-blue-400 text-black/50" />
         </button>
       </div>
 
@@ -52,7 +52,7 @@ export default function GlassMusicPlayer({
         </div>
         <div className="group relative h-1.5 w-full cursor-pointer overflow-hidden rounded-full bg-white/10">
           <div
-            className="absolute left-0 top-0 h-full bg-white transition-all group-hover:bg-[#39FF14]"
+            className="absolute left-0 top-0 h-full bg-white transition-all group-hover:bg-blue-400"
             style={{ width: `${progress}%` }}
           />
           <div
@@ -64,9 +64,9 @@ export default function GlassMusicPlayer({
 
       {/* Controls Section */}
       <div className="flex items-center justify-between text-white">
-        <button className="flex flex-col items-center gap-1 transition-colors hover:text-white text-[#39FF14]">
+        <button className="flex flex-col items-center gap-1 transition-colors hover:text-white text-blue-400">
           <Shuffle size={20} strokeWidth={2.5} />
-          <div className="h-1 w-1 rounded-full bg-[#39FF14]" />
+          <div className="h-1 w-1 rounded-full bg-blue-400" />
         </button>
         <button className="transition-all hover:scale-110 hover:text-white/80 active:scale-95">
           <SkipBack size={24} fill="currentColor" />
