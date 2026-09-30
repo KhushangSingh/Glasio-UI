@@ -4,16 +4,21 @@ Browse and copy any component directly from this list.
 
 ## Authentication
 - [GlassAuthBlock.jsx](components/authentication/GlassAuthBlock.jsx)
+- [GlassLoginForm.jsx](components/authentication/GlassLoginForm.jsx)
 
 ## Blocks
 - [GlassCheckoutBlock.jsx](components/blocks/GlassCheckoutBlock.jsx)
+- [GlassDashboardLayout](components/blocks/GlassDashboardLayout/)
+- [GlassOnboardingWizard](components/blocks/GlassOnboardingWizard/)
 - [GlassProfileBlock.jsx](components/blocks/GlassProfileBlock.jsx)
 
 ## Cards
 - [GlassCard.jsx](components/cards/GlassCard.jsx)
 - [GlassLiveStatCard.jsx](components/cards/GlassLiveStatCard.jsx)
+- [GlassMusicPlayer.jsx](components/cards/GlassMusicPlayer.jsx)
 - [GlassPricingCard.jsx](components/cards/GlassPricingCard.jsx)
 - [GlassStatCard.jsx](components/cards/GlassStatCard.jsx)
+- [GlassUserCard.jsx](components/cards/GlassUserCard.jsx)
 
 ## Cursors
 - [CustomCursor.jsx](components/cursors/CustomCursor.jsx)
@@ -50,6 +55,7 @@ Browse and copy any component directly from this list.
 - [GlassSelect.jsx](components/inputs/GlassSelect.jsx)
 - [GlassSlider.jsx](components/inputs/GlassSlider.jsx)
 - [GlassSwitch.jsx](components/inputs/GlassSwitch.jsx)
+- [GlassUploadButton.jsx](components/inputs/GlassUploadButton.jsx)
 
 ## Misc
 - [GlassMetricCycler.jsx](components/misc/GlassMetricCycler.jsx)
@@ -57,6 +63,7 @@ Browse and copy any component directly from this list.
 
 ## Navigation
 - [GlassBreadcrumbs.jsx](components/navigation/GlassBreadcrumbs.jsx)
+- [GlassFloatingMenu.jsx](components/navigation/GlassFloatingMenu.jsx)
 - [GlassNavbar.jsx](components/navigation/GlassNavbar.jsx)
 - [GlassSidebar.jsx](components/navigation/GlassSidebar.jsx)
 - [GlassStepper.jsx](components/navigation/GlassStepper.jsx)

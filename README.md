@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KhushangSingh/Glasio-UI/main/public/hero-image.png" alt="Glasio UI Hero" />
+  <img src="public/banner.png" alt="Glasio UI Hero" />
 
   <h1>Glasio UI</h1>
   <p><strong>Modern Glassmorphism UI Components for React & Tailwind CSS</strong></p>
@@ -41,7 +41,7 @@ components/
 
 ## ✨ Quick Start
 
-1. **Install Tailwind CSS**: Ensure your own project is set up with React and Tailwind CSS.
+1. **Review Dependencies**: See the [NPM Installation Guide (NPM_GUIDE.md)](NPM_GUIDE.md) for required packages (like `framer-motion`).
 2. **Find a Component**: Browse the `components/` folder in this repository or go to our [Component Registry](https://glasio-ui.vercel.app/) to find what you need.
 3. **Copy the Code**: Open the specific `.jsx` file (e.g., `GlassCard.jsx`) and copy the raw code.
 4. **Paste into Your Project**: Create a new file in your own project (e.g., `src/components/GlassCard.jsx`) and paste the code inside.
@@ -66,22 +66,6 @@ export default function App() {
 }
 ```
 
-## 🖱️ Vanilla HTML (Non-React) Users
-
-If you aren't using React but want our **premium glowing custom cursors** on a standard HTML website (like WordPress, Shopify, or Webflow), simply drop this script tag into your `<head>`:
-
-```html
-<script src="https://unpkg.com/glasio-ui/cursors.js"></script>
-```
-
-This zero-dependency script instantly adds our smooth, glassmorphism-styled trailing cursor to any website.
-
-## ✨ Micro-Interactions
-
-Glasio UI goes beyond basic components. We provide highly polished, interactive micro-features out of the box:
-- **Glowing Multi-Cursors:** A custom SVG cursor engine that tracks your mouse and expands on clickable elements (`CustomCursor.jsx`).
-- **Bouncing Elements:** Playful components that react to user proximity (e.g., `FooterBouncingCursor.jsx` which dodges the mouse).
-- **Command Palettes:** Fully animated, keyboard-navigable search modals (`GlassCommandBar.jsx`).
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/KhushangSingh/Glasio-UI/issues/new/choose) if you want to contribute to the growing list of components.
