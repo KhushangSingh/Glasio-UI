@@ -4,7 +4,7 @@ A beautiful, animated glassmorphism avatar container designed perfectly for disp
 
 ## Preview
 
-![GlassMascotAvatar Preview](preview.png)
+![GlassMascotAvatar Preview](preview.webp)
 
 ## Usage
 
@@ -17,12 +17,12 @@ export default function App() {
   return (
     <div className="flex gap-8 p-10 bg-black min-h-screen">
       <GlassMascotAvatar 
-        src="/glass_mascot_fox.jpg" 
+        src="/glass_mascot_fox.webp" 
         glowColor="rgba(168, 85, 247, 0.4)" 
         size={150} 
       />
       <GlassMascotAvatar 
-        src="/glass_mascot_panda.jpg" 
+        src="/glass_mascot_panda.webp" 
         glowColor="rgba(16, 185, 129, 0.4)" 
         size={150} 
       />
@@ -30,3 +30,4 @@ export default function App() {
   );
 }
 \`\`\`
+

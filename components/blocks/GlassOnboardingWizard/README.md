@@ -4,7 +4,7 @@ A beautiful, multi-step onboarding wizard component utilizing glassmorphism aest
 
 ## Preview
 
-![GlassOnboardingWizard Preview](preview.png)
+![GlassOnboardingWizard Preview](preview.webp)
 
 ## Usage
 
@@ -21,3 +21,4 @@ export default function App() {
   );
 }
 \`\`\`
+

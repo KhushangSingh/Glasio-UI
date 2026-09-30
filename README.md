@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/banner.png" alt="Glasio UI Hero" />
+  <img src="public/banner.webp" alt="Glasio UI Hero" />
 
   <h1>Glasio UI</h1>
   <p><strong>Modern Glassmorphism UI Components for React & Tailwind CSS</strong></p>
@@ -74,3 +74,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📝 License
 This project is open-source and free to use in personal and commercial projects.
+
