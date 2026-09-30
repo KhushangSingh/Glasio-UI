@@ -13,8 +13,8 @@ export default function GlassOnboardingWizard() {
   return (
     <div className="relative w-full max-w-2xl mx-auto overflow-hidden rounded-3xl border border-white/20 bg-white/10 p-8 shadow-2xl backdrop-blur-xl">
       {/* Background ambient glow */}
-      <div className="absolute -top-32 -right-32 h-64 w-64 rounded-full bg-purple-500/20 blur-[80px]" />
-      <div className="absolute -bottom-32 -left-32 h-64 w-64 rounded-full bg-blue-500/20 blur-[80px]" />
+      <div className="absolute -top-32 -right-32 h-64 w-64 rounded-full bg-white/10 blur-[80px]" />
+      <div className="absolute -bottom-32 -left-32 h-64 w-64 rounded-full bg-white/5 blur-[80px]" />
 
       <div className="relative z-10">
         {/* Progress Bar & Header */}
@@ -82,7 +82,7 @@ export default function GlassOnboardingWizard() {
                     onClick={() => setFormData({...formData, theme: themeName})}
                     className={`flex flex-col items-center gap-3 p-4 rounded-2xl border transition-all ${
                       formData.theme === themeName 
-                        ? 'border-purple-400/50 bg-purple-500/20 text-white shadow-[0_0_20px_rgba(168,85,247,0.3)]' 
+                        ? 'border-purple-400/50 bg-white/10 text-white shadow-[0_0_20px_rgba(168,85,247,0.3)]' 
                         : 'border-white/10 bg-white/5 text-white/60 hover:bg-white/10'
                     }`}
                   >
