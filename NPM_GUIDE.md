@@ -1,13 +1,6 @@
 # Installation Guide
 
-Glasio UI is designed as a **copy-and-paste** component library, meaning you do not install a monolithic `glasio-ui` package. Instead, you own the code and can customize it endlessly!
-
-However, to use these components out of the box, your project needs a few standard dependencies.
-
-## Prerequisites
-
-1. **React** (or a framework like Next.js / Vite)
-2. **Tailwind CSS** (for styling the glassmorphism effects)
+Glasio UI provides a highly convenient CLI to add our copy-and-paste components directly into your project!
 
 ## 1. Install Required Dependencies
 
@@ -39,14 +32,17 @@ module.exports = {
 }
 ```
 
-## 3. How to "Install" a Component
+## 3. Install Components via CLI (Recommended)
 
-Since there is no `npm install glasio-ui`, adding a component to your project is as simple as:
+You can easily pull any component directly into your project using the `glasio-ui` CLI package!
 
-1. Browse to the component you want in this GitHub repository (e.g., `components/cards/GlassCard.jsx`).
-2. **Copy** the raw code.
-3. **Paste** it into a new file in your own project (e.g., `src/components/GlassCard.jsx`).
-4. **Import** and use it anywhere!
+```bash
+npx glasio-ui add glass-card
+```
+
+This will automatically search the library and download `GlassCard.jsx` right into your project's `components` directory. 
+
+You can then import it like this:
 
 ```jsx
 // In your App.jsx or Page.jsx
@@ -63,5 +59,9 @@ export default function App() {
 }
 ```
 
-## 4. (Optional) Missing Dependencies?
-If you ever copy a complex component (like the `GlassLiveStatCard`) and get an error about a missing package, just check the `import` statements at the top of the file. If it requires an extra package, simply `npm install` that specific package!
+## 4. Manual Installation
+
+If you prefer not to use the CLI, you can always manually copy the components:
+1. Browse to the component you want in this GitHub repository (e.g., `components/cards/GlassCard.jsx`).
+2. **Copy** the raw code.
+3. **Paste** it into a new file in your own project.

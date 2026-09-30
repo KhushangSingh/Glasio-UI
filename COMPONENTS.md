@@ -37,6 +37,7 @@ Browse and copy any component directly from this list.
 - [GlassAvatar.jsx](components/data-display/GlassAvatar.jsx)
 - [GlassBadge.jsx](components/data-display/GlassBadge.jsx)
 - [GlassChip.jsx](components/data-display/GlassChip.jsx)
+- [GlassMascotAvatar](components/data-display/GlassMascotAvatar/)
 - [GlassTable.jsx](components/data-display/GlassTable.jsx)
 
 ## Feedback

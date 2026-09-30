@@ -42,7 +42,7 @@ export default function GlassDashboardLayout() {
       </div>
 
       {/* Sidebar (Desktop) */}
-      <aside className={\`absolute md:relative z-40 h-full w-64 border-r border-white/10 bg-white/5 backdrop-blur-3xl transition-transform duration-300 ease-in-out \${isSidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}\`}>
+      <aside className={`absolute md:relative z-40 h-full w-64 border-r border-white/10 bg-white/5 backdrop-blur-3xl transition-transform duration-300 ease-in-out ${isSidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}`}>
         <div className="flex h-20 items-center justify-between px-6 border-b border-white/10">
           <div className="flex items-center gap-2 font-bold text-xl tracking-tighter">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center shadow-lg shadow-blue-500/20">

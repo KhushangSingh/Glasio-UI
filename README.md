@@ -43,9 +43,11 @@ components/
 
 1. **Review Dependencies**: See the [NPM Installation Guide (NPM_GUIDE.md)](NPM_GUIDE.md) for required packages (like `framer-motion`).
 2. **Find a Component**: Browse the `components/` folder in this repository or go to our [Component Registry](https://glasio-ui.vercel.app/) to find what you need.
-3. **Copy the Code**: Open the specific `.jsx` file (e.g., `GlassCard.jsx`) and copy the raw code.
-4. **Paste into Your Project**: Create a new file in your own project (e.g., `src/components/GlassCard.jsx`) and paste the code inside.
-5. **Import and Use**: You can now import the component locally into your app just like any other file!
+3. **Use the CLI**: Add any component instantly using our npm package:
+   ```bash
+   npx glasio-ui add glass-card
+   ```
+4. **Import and Use**: You can now import the component locally into your app just like any other file!
 
 ### Example Usage:
 
